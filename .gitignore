@@ -7,8 +7,8 @@ venv/
 .idea/
 .vscode/
 
-# 模型权重不入库（体积大）
-*.safetensors
+# 模型权重统一走 Git LFS（*.safetensors 由 .gitattributes 跟踪），
+# 下载到临时目录的权重与其它二进制不入库
 *.bin
 *.pt
 *.pth
