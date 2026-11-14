@@ -1,0 +1,4 @@
+# 运行示例所需依赖
+torch>=2.0.0
+transformers>=4.37.0
+accelerate>=0.24.0

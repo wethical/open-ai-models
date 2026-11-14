@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+
+# 模型权重不入库（体积大）
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+weights/
